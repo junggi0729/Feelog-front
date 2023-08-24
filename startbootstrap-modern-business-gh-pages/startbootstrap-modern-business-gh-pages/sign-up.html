@@ -51,7 +51,7 @@
                     <div class="bg-light rounded-3 py-5 px-4 px-md-5 mb-5">
                         <div class="text-center mb-5">
                             <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
-                            <h1 class="fw-bolder">Log In</h1>
+                            <h1 class="fw-bolder">Sign Up</h1>
                             <p class="lead fw-normal text-muted mb-0">We'd love to hear from you</p>
                         </div>
                         <div class="row gx-5 justify-content-center">
@@ -72,10 +72,21 @@
                                         <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                                     </div>
                                     <div class="form-floating mb-3">
-                                        <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                        <input class="form-control" id="email" type="email" placeholder="" data-sb-validations="required,email" />
                                         <label for="email">Password</label>
                                         <div class="invalid-feedback" data-sb-feedback="email:required">An passward is required.</div>
                                         <div class="invalid-feedback" data-sb-feedback="email:email">passward is not valid.</div>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                        <label for="email">Name</label>
+                                        <div class="invalid-feedback" data-sb-feedback="email:required">An name is required.</div>
+                                        <div class="invalid-feedback" data-sb-feedback="email:email">name is not valid.</div>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                        <label for="message">Message</label>
+                                        <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                                     </div>
                                     <!-- Submit success message-->
                                     <!---->
@@ -98,10 +109,6 @@
                                     <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
                                     
                                     </br>
-                                    <!-- signup -->
-                                    <a href="sign-up.html" class="btn btn-outline-primary btn-lg d-grid">signup</a>
-                                    <!-- <a href='sign-up.html' class="d-grid"><button class="btn btn-outline-primary btn-lg" id="submitButton" type="submit" >SignUp</button></a> --> 
-
                                 </form>
                             </div>
                         </div>
